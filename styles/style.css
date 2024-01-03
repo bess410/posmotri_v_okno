@@ -131,7 +131,7 @@ html {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: '';
-  position: absolute;
+  position: relative;
   inset: 1px;
   display: block;
   background: #fff;
